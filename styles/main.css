@@ -1,0 +1,46 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+.color-option {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.color-option:hover {
+    transform: scale(1.05);
+    border-color: white;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.new-game-btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transition: all 0.3s ease;
+}
+
+.new-game-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
